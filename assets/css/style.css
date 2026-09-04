@@ -130,6 +130,23 @@ main { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
 }
 .pdf-link { margin: 2rem 0 4rem; font-size: 1.05rem; }
 
+/* Skills page */
+.skills-page { padding: 3rem 0 4rem; max-width: 68ch; }
+.skills-page > p { color: rgba(31,42,36,0.75); max-width: 60ch; }
+.skill-group {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+.skill-group h2 { font-size: 1.3rem; }
+.skill-source {
+  color: var(--moss);
+  font-size: 0.85rem;
+  margin: 0.2rem 0 0.8rem;
+}
+.skill-group ul { padding-left: 1.2rem; margin: 0; }
+.skill-group li { margin-bottom: 0.3rem; }
+
 /* About */
 .about { padding: 3rem 0 4rem; max-width: 65ch; }
 .about ul { padding-left: 1.2rem; }
