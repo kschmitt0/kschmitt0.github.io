@@ -1,0 +1,29 @@
+title: "Your Name — GIS Portfolio"
+description: "Maps, spatial analysis, and cartography projects"
+baseurl: ""
+url: "https://kschmitt0.github.io"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-feed
+
+# Files/folders Jekyll should ignore when building
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

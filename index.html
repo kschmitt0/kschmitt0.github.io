@@ -1,0 +1,24 @@
+---
+layout: default
+title: Projects
+---
+<section class="hero">
+  <h1>GIS &amp; spatial analysis work</h1>
+  <p>A collection of mapping, remote sensing, and spatial analysis projects — built in ArcGIS Pro, QGIS, and Python. Replace this line with a one- or two-sentence intro about what you focus on.</p>
+</section>
+
+<section class="project-grid">
+  {% assign projects = site.projects | sort: 'date' | reverse %}
+  {% for project in projects %}
+  <a class="project-card" href="{{ project.url | relative_url }}">
+    {% if project.thumbnail %}
+    <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}">
+    {% endif %}
+    <div class="project-card-body">
+      <h2>{{ project.title }}</h2>
+      {% if project.tools %}<p class="tools">{{ project.tools }}</p>{% endif %}
+      {% if project.summary %}<p class="summary">{{ project.summary }}</p>{% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</section>

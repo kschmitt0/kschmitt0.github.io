@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="project">
+  <div class="project-header">
+    <p class="back"><a href="{{ '/' | relative_url }}">← All projects</a></p>
+    <h1>{{ page.title }}</h1>
+    {% if page.tools %}
+    <p class="tools">{{ page.tools }}</p>
+    {% endif %}
+    {% if page.summary %}
+    <p class="summary">{{ page.summary }}</p>
+    {% endif %}
+  </div>
+
+  {% if page.thumbnail %}
+  <img class="project-hero" src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+  {% endif %}
+
+  <div class="project-body">
+    {{ content }}
+  </div>
+
+  {% if page.storymap_embed %}
+  <div class="embed-wrap">
+    <iframe src="{{ page.storymap_embed }}" allowfullscreen allow="geolocation"></iframe>
+  </div>
+  {% endif %}
+
+  {% if page.pdf %}
+  <p class="pdf-link">
+    <a href="{{ page.pdf | relative_url }}" target="_blank">View full report (PDF) →</a>
+  </p>
+  {% endif %}
+</article>

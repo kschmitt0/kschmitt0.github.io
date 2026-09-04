@@ -1,0 +1,141 @@
+:root {
+  --paper: #F2F0E4;
+  --ink: #1F2A24;
+  --moss: #5C6B47;
+  --rust: #A6531C;
+  --line: rgba(31, 42, 36, 0.15);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+h1, h2, h3 {
+  font-family: 'Spectral', serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+}
+
+a {
+  color: var(--rust);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid var(--line);
+}
+.wordmark {
+  font-family: 'Spectral', serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+.site-header nav a {
+  margin-left: 1.5rem;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+main { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+
+/* Hero — contour-line motif, one deliberate flourish rather than decoration everywhere */
+.hero {
+  padding: 4rem 0 2.5rem;
+  background-image:
+    repeating-radial-gradient(circle at 85% 15%, transparent 0, transparent 18px, var(--line) 19px, transparent 20px);
+}
+.hero h1 {
+  font-size: 2.3rem;
+  max-width: 15ch;
+}
+.hero p { max-width: 60ch; color: rgba(31,42,36,0.75); }
+
+/* Project grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.75rem;
+  padding: 1rem 0 4rem;
+}
+.project-card {
+  display: block;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.project-card:hover { border-color: var(--moss); text-decoration: none; }
+.project-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--line);
+}
+.project-card-body { padding: 1rem 1.1rem 1.3rem; }
+.project-card-body h2 { font-size: 1.15rem; }
+.project-card .tools {
+  color: var(--moss);
+  font-size: 0.85rem;
+  margin: 0.2rem 0 0.5rem;
+}
+.project-card .summary {
+  font-size: 0.92rem;
+  color: rgba(31,42,36,0.75);
+  margin: 0;
+}
+
+/* Individual project page */
+.project-header { padding: 3rem 0 1rem; }
+.back { font-size: 0.9rem; }
+.project h1 { font-size: 2rem; margin-top: 0.6rem; }
+.project .tools { color: var(--moss); font-size: 0.95rem; }
+.project .summary { max-width: 60ch; }
+.project-hero {
+  width: 100%;
+  border: 1px solid var(--line);
+  margin: 1.5rem 0;
+}
+.project-body { max-width: 68ch; }
+.embed-wrap {
+  margin: 2rem 0;
+  border: 1px solid var(--line);
+}
+.embed-wrap iframe {
+  width: 100%;
+  height: 560px;
+  border: 0;
+  display: block;
+}
+.pdf-link { margin: 2rem 0 4rem; font-size: 1.05rem; }
+
+/* About */
+.about { padding: 3rem 0 4rem; max-width: 65ch; }
+.about ul { padding-left: 1.2rem; }
+
+/* Footer */
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: rgba(31,42,36,0.6);
+}
+
+@media (max-width: 600px) {
+  .site-header, .site-footer { padding: 1.2rem; flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+  main { padding: 0 1.2rem; }
+}
