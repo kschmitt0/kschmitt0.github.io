@@ -18,5 +18,5 @@ permalink: /about/
   </ul>
 
   <p><a href="/assets/resume.pdf" target="_blank">Download resume (PDF) →</a></p>
-  <p>Email: you@example.com · <a href="https://www.linkedin.com/in/your-handle">LinkedIn</a></p>
+  <p>Email: you@example.com · <a href="https://www.linkedin.com/in/kyle0schmitt">LinkedIn</a></p>
 </section>
