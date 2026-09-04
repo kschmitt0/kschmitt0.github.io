@@ -9,4 +9,4 @@ storymap_embed: "https://storymaps.arcgis.com/stories/1f868bc5da2c4ffc953e142a8a
 
 This project uses network analysis and suitability modeling to map grocery accessibility across Sherman, Texas, identifying areas where residents face the greatest barriers to reaching a grocery store.
 
-Explore the full interactive StoryMap below.
+Explore the full interactive StoryMap below, or click the [link here](https://storymaps.arcgis.com/stories/1f868bc5da2c4ffc953e142a8a744cfc)
