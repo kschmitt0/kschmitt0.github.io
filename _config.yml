@@ -19,9 +19,6 @@ defaults:
     values:
       layout: default
 
-plugins:
-  - jekyll-feed
-
 # Files/folders Jekyll should ignore when building
 exclude:
   - README.md

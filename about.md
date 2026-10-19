@@ -15,7 +15,7 @@ permalink: /about/
     <li>Python (arcpy, geopandas)</li>
     <li>SPSS / SAS</li>
     <li>Adobe Creative Suite (InDesign, Photoshop, Illustrator)</li>
-    <li>Microsoft Office Suite (Word, Excel PowerPoint)</li>
+    <li>Microsoft Office Suite (Word, Excel, PowerPoint)</li>
   </ul>
 
   <p><a href="/assets/resume.pdf" target="_blank">Download resume (PDF) →</a></p>

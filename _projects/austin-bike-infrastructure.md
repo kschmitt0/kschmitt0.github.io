@@ -1,6 +1,7 @@
 ---
 title: "Bike Infrastructure in Austin, Texas"
 date: 2026-02-20
+course: "GIS Workshop for Planners (PUP 576), Spring 2026"
 tools: "ArcGIS Pro · Cartographic Design"
 summary: "A map of Austin's bike network, classified by facility type — bike lanes, buffered lanes, cycling tracks, and multi-use paths."
 thumbnail: /assets/images/austin-bike/hero.png

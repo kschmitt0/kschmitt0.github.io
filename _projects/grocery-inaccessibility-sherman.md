@@ -1,6 +1,7 @@
 ---
 title: "Grocery Inaccessibility in Sherman, Texas"
 date: 2026-05-04
+course: "GIS Workshop for Planners (PUP 576), Spring 2026"
 tools: "ArcGIS Pro · Network Analysis · Suitability Analysis"
 summary: "A network and suitability analysis identifying areas of Sherman, TX with limited access to grocery stores."
 thumbnail: https://cdn.arcgis.com/sharing/rest/content/items/1f868bc5da2c4ffc953e142a8a744cfc/resources/9S7dZ7LDx2vZ8c7S278Kx.jpg?w=800

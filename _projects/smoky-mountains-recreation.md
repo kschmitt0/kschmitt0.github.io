@@ -1,6 +1,7 @@
 ---
 title: "Great Smoky Mountains National Park: Recreation & Land Cover"
 date: 2026-03-01
+course: "GIS Workshop for Planners (PUP 576), Spring 2026"
 tools: "ArcGIS Pro · Cartographic Design · Land Cover Analysis"
 summary: "A recreation and land cover map layout for Great Smoky Mountains National Park, combining trail and facility data with tree canopy and impervious surface analysis."
 thumbnail: /assets/images/smoky-mountains/hero.png

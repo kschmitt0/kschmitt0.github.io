@@ -1,6 +1,7 @@
 ---
 title: "Populations Near Historically Active Volcanoes, Pacific Northwest"
 date: 2026-02-10
+course: "GIS Workshop for Planners (PUP 576), Spring 2026"
 tools: "ArcGIS Pro · Cartographic Design · Demographic Analysis"
 summary: "A map identifying Washington and Oregon populations living near historically active volcanoes, symbolized by eruption frequency and county population density."
 thumbnail: /assets/images/pnw-volcanoes/hero.png

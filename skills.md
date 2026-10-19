@@ -6,7 +6,7 @@ permalink: /skills/
 
 <section class="skills-page">
   <h1>Skills &amp; Coursework</h1>
-  <p>Beyond the projects above, I've worked through structured coursework and Esri tutorials covering the following areas.</p>
+  <p>Beyond the projects on the home page, I've worked through structured coursework and Esri tutorials covering the following areas.</p>
 
   <div class="skill-group">
     <h2>Cartography &amp; Data Visualization</h2>

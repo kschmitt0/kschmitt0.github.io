@@ -1,6 +1,7 @@
 ---
 title: "Landfill Suitability Index"
 date: 2026-04-15
+course: "GIS Workshop for Planners (PUP 576), Spring 2026"
 tools: "ArcGIS Pro · Raster Analysis · Weighted Overlay"
 summary: "A weighted suitability model identifying optimal landfill sites based on slope, soil infiltration rate, and distance to roads and streams."
 thumbnail: /assets/images/landfill-suitability/hero.png
