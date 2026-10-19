@@ -4,7 +4,3 @@ _site/
 Gemfile.lock
 .DS_Store
 Thumbs.db
-_layouts/
-assets/
-_config.yml
-index.html
