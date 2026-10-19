@@ -6,7 +6,7 @@ permalink: /about/
 
 <section class="about">
   <h1>About</h1>
-  <p>I'm a Master of Urban and Environmental Planning student at Arizona State University, focused on how spatial analysis and GIS can support climate adaptation, transportation planning, and community resilience. My work spans everything from resident survey design to statistical modeling of real estate markets, and I'm drawn to projects where mapping and data turn into decisions people can act on.</p>
+  <p>I'm a Master of Urban and Environmental Planning student at Arizona State University, focused on how spatial analysis and GIS can support climate adaptation, transportation planning, and community resilience.</p>
 
   <h2>Skills &amp; software</h2>
   <ul>
